@@ -12,7 +12,7 @@ CalClubScraper runs using `pip3` packages. It also requries you to download a `C
 ---
 ## Installation Steps 
 1. If you have not already, install [`Python 3.6+`](https://www.python.org/downloads/)
-2. Install all `pip3` required packages by `pip3 install requirements.txt`
+2. Install all `pip3` required packages by running `pip3 install requirements.txt` in command line.
 3. Install the latest version of `Chromedriver`: https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
 4. Place the `Chromedriver` executable file into the `src/` directory.
 
