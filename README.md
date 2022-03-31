@@ -21,6 +21,6 @@ To run the scraper, run `python3 src/webscraper_email.py` from the root director
 
 ---
 ## Sources
-https://www.crummy.com/software/BeautifulSoup/bs4/doc/ BeautifulSoup4 documentation
-https://selenium-python.readthedocs.io/ Selenium documentation
-https://callink.berkeley.edu/ The website the program scrapes
+* https://www.crummy.com/software/BeautifulSoup/bs4/doc/ BeautifulSoup4 documentation
+* https://selenium-python.readthedocs.io/ Selenium documentation
+* https://callink.berkeley.edu/ The website the program scrapes
