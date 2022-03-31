@@ -1,20 +1,23 @@
 # CalClubScraper
-Powered nd BeautifulSoup4.
+Scrapes all the emails of UC Berkeley's (Cal) student organizations (clubs). Outputs a .csv of the by Selenium and BeautifulSoup4.
 
 
 ---
 ## Runtime Enviornment
-
+CalClubScraper runs using `pip` packages. It also requries you to download a `Chromedriver`. You also would need Python 3.6+
 
 ---
 ## Installation Steps 
-1. Install node on your local system
-2. Install npm packages using `npm install`
-3. Start both node instances by running `node index.js` in both the `/client` and `/server` folders.
-4. Put that url into the `Server URI` input from the client and click connect
-5. (Optional) To establish connections from outside the local network, I recommend ngrok as a proxy for `server/index.js`.
+1. If you have not already, install [Python 3.6+`](https://www.python.org/downloads/)
+2. Install all `pip` required packages by `pip install requirements.txt`
+3. Install the latest version of `chromedriver`: https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
+
+---
+## Execute
+To run the scraper, run `python3 src/webscraper_email.py` from the root directory.
 
 ---
 ## Sources
-* https://gabrieltanner.org/blog/webrtc-video-broadcast (for figuring out WebRTC protocol)
-* https://github.com/justadudewhohacks/face-api.js/ (for client based computer vision for text attachment to forehead)
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/ BeautifulSoup4 documentation
+https://selenium-python.readthedocs.io/ Selenium documentation
+https://callink.berkeley.edu/ The website the program scrapes
