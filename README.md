@@ -7,17 +7,18 @@ Powered by Selenium and BeautifulSoup4.
 
 ---
 ## Runtime Enviornment
-CalClubScraper runs using `pip` packages. It also requries you to download a `Chromedriver`. You also would need Python 3.6+
+CalClubScraper runs using `pip3` packages. It also requries you to download a `Chromedriver` executable file. You also would need Python 3.6+
 
 ---
 ## Installation Steps 
 1. If you have not already, install [Python 3.6+`](https://www.python.org/downloads/)
-2. Install all `pip` required packages by `pip install requirements.txt`
-3. Install the latest version of `chromedriver`: https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
+2. Install all `pip3` required packages by `pip3 install requirements.txt`
+3. Install the latest version of `Chromedriver`: https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
+4. Place the `Chromedriver` executable file into the `src/` directory.
 
 ---
 ## Execute
-To run the scraper, run `python3 src/webscraper_email.py` from the root directory.
+To run the scraper, run `python3 src/webscraper_email.py` from the root directory. Follow the status messages! *It may take a while*
 
 ---
 ## Sources
