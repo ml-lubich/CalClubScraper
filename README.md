@@ -1,5 +1,5 @@
 # CalClubScraper
-Scrapes all the emails of UC Berkeley's (Cal) student organizations (clubs). Outputs a .csv of the clubs and emails like so:
+Scrapes all the emails of UC Berkeley's (Cal) student organizations (clubs). Outputs a .csv of the clubs and contact email(s) per club like so:
 
 ![](screenshots/demo.png)
 
