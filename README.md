@@ -3,7 +3,7 @@ Scrapes all the emails of UC Berkeley's (Cal) student organizations (clubs). Out
 
 ![](screenshots/demo.png)
 
-Powered by [https://www.selenium.dev/documentation/](Selenium) and [https://www.crummy.com/software/BeautifulSoup/bs4](BeautifulSoup4).
+Powered by [Selenium](https://www.selenium.dev/documentation/) and [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4).
 
 ---
 ## Runtime Enviornment
