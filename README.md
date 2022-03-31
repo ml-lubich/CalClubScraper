@@ -1,6 +1,9 @@
 # CalClubScraper
-Scrapes all the emails of UC Berkeley's (Cal) student organizations (clubs). Outputs a .csv of the by Selenium and BeautifulSoup4.
+Scrapes all the emails of UC Berkeley's (Cal) student organizations (clubs). Outputs a .csv of the clubs and emails like so:
 
+![screenshots/demo.png](.csv output)
+
+Powered by Selenium and BeautifulSoup4.
 
 ---
 ## Runtime Enviornment
