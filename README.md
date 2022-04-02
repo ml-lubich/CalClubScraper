@@ -17,7 +17,7 @@ CalClubScraper runs using `pip3` packages. It also requries you to download a `C
 4. Place the `Chromedriver` executable file into the `src/` directory.
 
 ---
-## Execute
+## Runtime Steps
 To run the scraper, run `python3 src/webscraper_email.py` from the root directory. Follow the status messages! *It may take a while*
 
 Can change the endpoint URL being scraped. Simply go to https://callink.berkeley.edu/organizations and select an option to filter down clubs you would like to scrape.
