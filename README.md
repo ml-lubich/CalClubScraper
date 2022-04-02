@@ -7,13 +7,12 @@ Powered by [Selenium](https://www.selenium.dev/documentation/) and [BeautifulSou
 
 ---
 ## Runtime Enviornment
-CalClubScraper runs using `pip3` packages. You also would need Python 3.6+ `chromedriver` may be flagged by the security system of platforms like MacOS, causing the program to crash. All you need to do: go to Security Preferences and click "Allow" to open the chromedriver executable.
+CalClubScraper runs using `pip3` packages. You also would need Python 3.6+ `chromedriver` may be flagged by the security system of platforms like MacOS, causing the program to crash. All you need to do: go to Security Preferences and click "Allow" to open the chromedriver executable. *Note: `chromedriver` is installed and deleted automatically by the program at runtime.
 
 ---
 ## Installation Steps 
 1. If you have not already, install [`Python 3.6+`](https://www.python.org/downloads/)
 2. Install all `pip3` required packages by running `pip3 install requirements.txt` in command line.
-3. Place the `Chromedriver` executable file into the `src/` directory.
 
 ---
 ## Running the Scraper
