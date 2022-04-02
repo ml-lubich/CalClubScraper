@@ -7,17 +7,16 @@ Powered by [Selenium](https://www.selenium.dev/documentation/) and [BeautifulSou
 
 ---
 ## Runtime Enviornment
-CalClubScraper runs using `pip3` packages. It also requries you to download a `Chromedriver` executable file. You also would need Python 3.6+
+CalClubScraper runs using `pip3` packages. You also would need Python 3.6+ `chromedriver` may be flagged by the security system of platforms like MacOS, causing the program to crash. All you need to do: go to Security Preferences and click "Allow" to open the chromedriver executable.
 
 ---
 ## Installation Steps 
 1. If you have not already, install [`Python 3.6+`](https://www.python.org/downloads/)
 2. Install all `pip3` required packages by running `pip3 install requirements.txt` in command line.
-3. Install the latest version of `Chromedriver`: https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
-4. Place the `Chromedriver` executable file into the `src/` directory.
+3. Place the `Chromedriver` executable file into the `src/` directory.
 
 ---
-## Runtime Steps
+## Running the Scraper
 To run the scraper, run `python3 src/webscraper_email.py` from the root directory. Follow the status messages! *It may take a while*
 
 Can change the endpoint URL being scraped. Simply go to https://callink.berkeley.edu/organizations and select an option to filter down clubs you would like to scrape.
