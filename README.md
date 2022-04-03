@@ -12,13 +12,13 @@ CalClubScraper runs using `pip3` packages. You also would need Python 3.6+ `chro
 ---
 ## Installation Steps 
 1. If you have not already, install [`Python 3.6+`](https://www.python.org/downloads/)
-2. Install all `pip3` required packages by running `pip3 install requirements.txt` in command line.
+2. Install all `pip3` required packages by running `pip3 install -r requirements.txt` in command line.
 
 ---
 ## Running the Scraper
-To run the scraper, run `python3 src/webscraper_email.py` from the root directory. Follow the status messages! *It may take a while*
+To run the scraper, you can run the `scraper.py` script by typing `python3 src/scraper.py` in your terminal (from the root directory). Follow the status messages! *It may take a while*
 
-Can change the endpoint URL being scraped. Simply go to https://callink.berkeley.edu/organizations and select an option to filter down clubs you would like to scrape.
+Can change the endpoint URL being scraped. Simply go to https://callink.berkeley.edu/organizations and select an option (in the dropdown to the left) to filter the clubs you would like to scrape.
 
 ---
 ## Sources
