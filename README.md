@@ -3,6 +3,7 @@ Scrapes all the emails of UC Berkeley's (Cal) student organizations (clubs). Out
 
 ![](screenshots/demo.png)
 
+*Note: If there are more than 1 email, the entry is returned as a list of emails.*
 Powered by [Selenium](https://www.selenium.dev/documentation/) and [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4).
 
 ---
