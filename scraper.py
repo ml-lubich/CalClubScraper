@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
     print("Loading All Posts...")
 
-    # LOAD ALL ELEMS          
+    # LOAD ALL ELEMENTS          
     # get the inner element of the button which contains the distinctive text "Load More"
     inner_elem = driver.find_elements(by=By.XPATH, value='//span[text()=\'Load More\']')
     if len(inner_elem) > 1:
@@ -77,14 +77,14 @@ if __name__ == '__main__':
     print("Done!\n===")
     print("Getting all the links...\n===")
 
-    # FIND HTML ELEMS (LINKS AND ORG TITLES):
+    # FIND HTML ELEMENTS (LINKS AND ORG TITLES):
     # skip the first three elements that contain 'organization'
     all_post_elems = driver.find_elements(by=By.XPATH, value='//a[contains(@href, \'organization\')]')[2:]
     all_title_elems = driver.find_elements(by=By.XPATH, value='//*[contains(@size, \'75\')]')
 
     all_title_elems = [x.get_attribute('alt') for x in all_title_elems]
 
-    # NUMBER OF POSTS — FOR PROGRESS
+    # NUMBER OF POSTS (FOR PROGRESS)
     print("Found", str(len(all_post_elems)), "total posts")
 
     email_pattern = re.compile(r"(((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W]))")
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
     print("Going to all links...\n===")
 
-    # GO TO EACH SITE AND REGEX SEARCH FOR EMAIL
+    # GO TO EACH URL AND REGEX SEARCH FOR EMAIL
     num_posts = 0
     for elem in all_post_elems:
         link_elem = elem.get_attribute("href")
